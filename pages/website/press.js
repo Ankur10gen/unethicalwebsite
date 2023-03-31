@@ -26,9 +26,7 @@ export function App() {
           width="560"
           height="315"
           src={url}
-          frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
         ></iframe>
         </div>
       </div>
@@ -88,6 +86,14 @@ export default function Press({postData}) {
         <br/>
         <App/>
         <br/>
+        <style jsx>{`
+        .container {
+          margin: 50px;
+        }
+        p {
+          color: blue;
+        }
+      `}</style>
           <div className={styles.newdesc} dangerouslySetInnerHTML={{ __html: postData.contentHtml }}>
           </div>
 

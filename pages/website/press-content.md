@@ -6,11 +6,11 @@
 
 &nbsp;  
 
-India, New Delhi - Unethical.in, a newly launched AI startup, has announced that it has raised $500K in seed funding from Dollar Ventures, a prominent venture capital firm. This funding will enable Unethical to expand its operations and develop its products and services to better serve its customers.
+India, New Delhi - [Unethical.in](http://unethical.in), a newly launched AI startup, has announced that it has raised $500K in seed funding from Dollar Ventures, a prominent venture capital firm. This funding will enable Unethical to expand its operations and develop its products and services to better serve its customers.
 
 &nbsp;  
 
-"We are thrilled to have the support of Dollar Ventures as we begin this exciting journey," said Ankur Raina, founder and CEO of Unethical. "Their expertise and guidance will be invaluable as we work to revolutionize the AI industry and provide innovative solutions to our customers."
+"We are thrilled to have the support of Dollar Ventures as we begin this exciting journey," said [Ankur Raina, founder and CEO of Unethical](https://www.linkedin.com/in/rainaankur92/). "Their expertise and guidance will be invaluable as we work to revolutionize the AI industry and provide innovative solutions to our customers."
 
 &nbsp;  
 
