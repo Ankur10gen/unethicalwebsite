@@ -22,6 +22,11 @@ export function YoutubeVideo(){
           autoplay: play,
         }}
   
+    setTimeout(() => {
+        setShowMe(true)
+        console.log("executed timeout")
+    }, 7000)
+
     function _onReady(event) {
         showMe ? event.target.playVideo() : event.target.pauseVideo()
     }
