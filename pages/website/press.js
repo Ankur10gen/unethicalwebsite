@@ -18,9 +18,9 @@ export function RunJoke(){
 
     return (
         <div style={{display: showMe?"block":"none"}} className={styles.newdesc}>
-            <div>If you have already read the entire text and still trying to make sense of what we do, I guess you have been April Fooled.</div>
-            <div>Unfortunately you can't do much about the time you wasted here. But </div>
-            <div>You might enjoy wasting your friend's time. Hit that Like button on the social media post that sent you here so that your friends fall for the same prank.</div>
+            {"If you have already read the entire text and still trying to make sense of what we do, I guess you have been April Fooled."}
+            {"Unfortunately you can't do much about the time you wasted here. But"}
+            {"You might enjoy wasting your friend's time. Hit that Like button on the social media post that sent you here so that your friends fall for the same prank."}
         </div>
     );
 }
