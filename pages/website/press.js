@@ -8,7 +8,6 @@ import YouTube from "react-youtube";
 import {useEffect } from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
-import { Analytics } from '@vercel/analytics/react';
 
 export function RunJoke(){
     const [showMe, setShowMe] = useState(false);
@@ -133,7 +132,6 @@ export default function Press({postData}) {
 
   return (
         <div>
-        <Analytics/>
 
         <Head>
         <title>Unethical</title>
