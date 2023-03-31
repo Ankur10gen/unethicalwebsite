@@ -9,6 +9,22 @@ import {useEffect } from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 
+export function RunJoke(){
+    const [showMe, setShowMe] = useState(false);
+
+    setTimeout(() => {
+        setShowMe(true)
+    }, 7000)
+
+    return (
+        <div style={{display: showMe?"block":"none"}} className={styles.newdesc}>
+            <p>If you have already read the entire text and still trying to make sense of what we do, I guess you have been April Fooled.</p>
+            <p>Unfortunately you can't do much about the time you wasted here. But </p>
+            <p>You might enjoy wasting your friend's time. Hit that Like button on the social media post that sent you here so that your friends fall for the same prank.</p>
+        </div>
+    );
+}
+
 export function YoutubeVideo(){
     
     const [play, setPlay] = React.useState(false);
@@ -140,6 +156,7 @@ export default function Press({postData}) {
           <div className={styles.center}>
           <img src="https://drive.google.com/uc?id=1IkWrw78yQum-h0K8Cvq--zOrXOjuRlWy" width="200" height="200" align="center"></img>
           </div>
+          <RunJoke/>
           <br/>
         </div>
         
