@@ -9,6 +9,42 @@ import {useEffect } from 'react';
 import Head from 'next/head'
 import Image from 'next/image'
 
+export function YoutubeVideo(){
+    
+    const [play, setPlay] = React.useState(false);
+    const [showMe, setShowMe] = useState(false);
+    
+    const opts = {
+        height: "390",
+        width: "640",
+        data:showMe?1:0,
+        playerVars: {
+          autoplay: play,
+        }}
+  
+    function _onReady(event) {
+        showMe ? event.target.playVideo() : event.target.pauseVideo()
+    }
+
+    return (
+
+      <div>
+        <button onClick={() => {setPlay(true); setShowMe(true)}} style={{ width: "100%", height: "50px", backgroundColor: '#98fb98', cursor: 'pointer'}} ><b>Learn More About Dollar Ventures and Our Initiatives in APAC</b></button>
+        <br/>
+        <div style={{display: showMe?"block":"none"}}>
+        <YouTube videoId="EkKl6IwFTms" 
+            opts={opts} onReady={_onReady} />
+
+        </div>
+      </div>
+    );
+  
+//   _onReady(event) {
+//     event.target.pauseVideo();
+//   }
+}
+
+
 export function App() {
     const [play, setPlay] = React.useState(false);
     const url = play
@@ -84,7 +120,8 @@ export default function Press({postData}) {
         
         <br/>
         <br/>
-        <App/>
+        <YoutubeVideo/>
+        {/* <App/> */}
         <br/>
         <style jsx>{`
         .container {
@@ -102,7 +139,8 @@ export default function Press({postData}) {
           <br></br>
           <br></br>
           <br></br>
-          <App/>
+          {/* <App/> */}
+          <YoutubeVideo/>
           <br/>
         </div>
         
