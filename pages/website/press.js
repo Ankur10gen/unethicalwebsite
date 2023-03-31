@@ -128,14 +128,6 @@ export default function Press({postData}) {
         <YoutubeVideo/>
         {/* <App/> */}
         <br/>
-        <style jsx>{`
-        .container {
-          margin: 50px;
-        }
-        p {
-          color: blue;
-        }
-      `}</style>
           <div className={styles.newdesc} dangerouslySetInnerHTML={{ __html: postData.contentHtml }}>
           </div>
 
@@ -145,7 +137,9 @@ export default function Press({postData}) {
           <br></br>
           <br></br>
           {/* <App/> */}
-          <YoutubeVideo/>
+          <div className={styles.center}>
+          <img src="https://drive.google.com/uc?id=1IkWrw78yQum-h0K8Cvq--zOrXOjuRlWy" width="200" height="200" align="center"></img>
+          </div>
           <br/>
         </div>
         
