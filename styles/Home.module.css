@@ -7,6 +7,19 @@
   min-height: 100vh;
 }
 
+.newdesc {
+  display: inherit;
+  justify-content:right;
+  align-items: inherit;
+  font-size: 1.5rem;
+  width: 100%;
+  z-index: 2;
+  font-family: var(--font-mono);
+  padding-left: 5%;
+  padding-right: 5%;
+  height: 100%;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
